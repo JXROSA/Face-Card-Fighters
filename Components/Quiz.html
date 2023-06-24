@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <li>
+      <a href="../index.html">Home</a>
+      <a href="./Rules.html">Rules</a>
+      <a href="./Play.html">Play</a>
+      <a href="#">Quiz</a>
+    </li>
+    <h1>Quiz Time</h1>
+    <h2>what is the kings ability?</h2>
+    <form action="" method="post">
+      <legend>Survey questions</legend>
+      <fieldset>
+        <div id="King-question">
+          <!-- 1 -->
+          <input id="block" type="radio" name="A-king" value="block" />
+          <label for="block"> Block</label>
+          <!-- 2 -->
+          <input id="damage" type="radio" name="A-king" value="damage" />
+          <label for="damage">Deal more damage</label>
+          <!-- 3 -->
+          <input id="push" type="radio" name="A-king" value="shove" />
+          <label for="push">push front-line to back-line</label>
+          <!-- 4 -->
+          <input id="kill" type="radio" name="A-king" value="kill" />
+          <label for="kill">kills all</label>
+          <input id="submit-btn" type="submit" />
+        </div>
+      </fieldset>
+    </form>
+    <script src="Quiz.js"></script>
+  </body>
+</html>
